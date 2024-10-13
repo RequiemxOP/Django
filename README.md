@@ -89,7 +89,7 @@ cd Django</code></pre>
 </ol>
 
 <h2 id="api-endpoints">API Endpoints</h2>
-<ul>
+<ul>  <li><strong>Get Movies from External API</strong>: <code>GET https://demo.credy.in/api/v1/maya/movies</code></li>
     <li><strong>Create a Collection</strong>: <code>POST /collection/</code></li>
     <li><strong>Get Collections</strong>: <code>GET /collection/</code></li>
     <li><strong>Update a Collection</strong>: <code>PUT /collection/&lt;collection_uuid&gt;/</code></li>
