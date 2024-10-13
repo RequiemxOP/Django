@@ -55,7 +55,7 @@
 <ol>
     <li><strong>Clone the repository</strong>:
         <pre><code>git clone https://github.com/RequiemxOP/OneFin-Backend-Assignment
-cd Django</code></pre>
+cd OneFin-Backend-Assignment</code></pre>
     </li>
     <li><strong>Create a virtual environment</strong>:
         <pre><code>python -m venv venv</code></pre>
