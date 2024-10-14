@@ -89,6 +89,19 @@ To configure your Django project with the necessary API credentials, follow thes
     api_username = os.getenv("API_USERNAME")
     api_password = os.getenv("API_PASSWORD")
     ```
+# Installing python-dotenv
+
+To load environment variables from a `.env` file into your Django project, you need to install the `python-dotenv` package. Follow these steps:
+
+1. Open the VS Code terminal.
+
+2. Run the following command to install the `python-dotenv` package:
+
+    ```bash
+    pip install python-dotenv
+    ```
+
+After installing, you can use `python-dotenv` to manage your environment variables securely by loading them from the `.env` file.
 
 By following these steps, you'll securely store and access your API credentials without hardcoding them in your project files.
 
