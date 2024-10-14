@@ -50,6 +50,47 @@
     <li>Django 5.1.2</li>
     <li>Django REST framework 3.15.2</li>
 </ul>
+# Setting Up Environment Variables
+
+To configure your Django project with the necessary API credentials, follow these steps:
+
+## Step 1: Set Up Environment Variables
+
+1. Open VS Code and navigate to your project folder.
+
+2. Create a `.env` file in your project root folder to store the API credentials:
+
+    - Right-click on your project folder and select **New File**.
+    - Name it `.env`.
+
+3. Inside the `.env` file, add the following:
+
+    ```bash
+    API_USERNAME=iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0
+    API_PASSWORD=Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1
+    ```
+
+## Step 2: Update settings.py to Load Environment Variables
+
+1. Open `settings.py` in your Django project.
+
+2. At the top, add the following code to load the `.env` file:
+
+    ```python
+    import os
+    from dotenv import load_dotenv
+
+    load_dotenv()  # Load environment variables from .env file
+    ```
+
+3. Now, you can access the API credentials in your Django project using:
+
+    ```python
+    api_username = os.getenv("API_USERNAME")
+    api_password = os.getenv("API_PASSWORD")
+    ```
+
+By following these steps, you'll securely store and access your API credentials without hardcoding them in your project files.
 
 <h2 id="installation">Installation</h2>
 <ol>
