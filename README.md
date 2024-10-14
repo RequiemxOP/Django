@@ -31,7 +31,7 @@
 <body>
 
 <h1>Django Movie Collection API</h1>
-
+# 19 viwes & 6 Clones. Man can guys do something by yourselves.
 <p>This is a Django project that provides an API for managing movie collections. It includes features for creating, updating, and deleting collections and movies, as well as a request counting middleware.</p>
 
 <h2>Table of Contents</h2>
