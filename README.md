@@ -139,7 +139,8 @@ cd OneFin-Backend-Assignment</code></pre>
 <h2 id="running-the-project">Running the Project</h2>
 <ol>
     <li><strong>Apply migrations</strong>:
-        <pre><code>python manage.py migrate</code></pre>
+        <pre><code>python manage.py makemigrations</code>
+        <code>python manage.py migrate</code></pre>
     </li>
     <li><strong>Run the development server</strong>:
         <pre><code>python manage.py runserver</code></pre>
