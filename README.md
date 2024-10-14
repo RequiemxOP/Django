@@ -145,8 +145,8 @@ cd OneFin-Backend-Assignment</code></pre>
     <li><strong>Run the development server</strong>:
         <pre><code>python manage.py runserver</code></pre>
     </li>
-    <li><strong>Access the API</strong>:
-        <p>Open your browser and navigate to <code>http://localhost:8000/</code> to see the API documentation or use an API client (like Postman) to test the endpoints.</p>
+    <li><strong>Check the development Server</strong>:
+        <p>Open your browser and navigate to <code>http://localhost:8000/Movies/</code></p>
     </li>
 </ol>
 
@@ -167,6 +167,7 @@ cd OneFin-Backend-Assignment</code></pre>
 <h2 id="running-tests">Running Tests</h2>
 <p>To run the tests, use the following command:</p>
 <pre><code>python manage.py test</code></pre>
+<p>You will get Ok status, after successfully passing all 7 Test</p>
 
 <h2 id="contributing">Contributing</h2>
 <p>Feel free to submit issues or pull requests for any features or fixes.</p>
