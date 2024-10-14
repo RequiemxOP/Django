@@ -104,6 +104,9 @@ To load environment variables from a `.env` file into your Django project, you n
 After installing, you can use `python-dotenv` to manage your environment variables securely by loading them from the `.env` file.
 
 By following these steps, you'll securely store and access your API credentials without hardcoding them in your project files.
+Don't forget  ```bash
+    pip install requests
+    ```
 
 <h2 id="installation">Installation</h2>
 <ol>
