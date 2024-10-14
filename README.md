@@ -147,7 +147,7 @@ cd OneFin-Backend-Assignment</code></pre>
     </li>
     <li><strong>Check the development Server</strong>:
         <p>Open your browser and navigate to <code>http://localhost:8000/movies/</code></p>
-        <p>You get viwed Task 1 in JSON format</p>
+        <p>You get viewed Task 1 in JSON format</p>
     </li>
 </ol>
 
