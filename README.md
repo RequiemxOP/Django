@@ -66,6 +66,7 @@ To configure your Django project with the necessary API credentials, follow thes
 3. Inside the `.env` file, add the following:
 
     ```bash
+    SECRETKEY=
     API_USERNAME=iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0
     API_PASSWORD=Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1
     ```
